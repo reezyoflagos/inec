@@ -106,6 +106,7 @@
 
 .side6 {
   background-image: url(dock.png);
+  background-size: auto;
   background-size: cover;
   text-align: center;
   background-color: whitesmoke;
