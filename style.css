@@ -177,6 +177,7 @@ footer {
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
+  justify-content: center;
 }
 footer .side2 {
   margin-top: 20px;
