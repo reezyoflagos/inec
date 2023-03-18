@@ -105,15 +105,19 @@
 }
 
 .side6 {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   background-image: url(dock.png);
   background-size: cover;
-  padding: 20px;
+  text-align: center;
   background-color: whitesmoke;
   margin-top: 80px;
   padding-top: 70px;
+}
+.side6 .text2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 100px;
 }
 .side6 button {
   margin-top: 30px;
@@ -146,9 +150,18 @@
   color: #303030;
 }
 @media (max-width: 576px) {
-  .body2 .text {
-    font-size: small;
-    justify-content: flex-start;
+  .body2 .text .high {
+    margin: 50px;
+  }
+  .body2 .text p {
+    font-size: 15px;
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    height: auto;
+    font-weight: 900;
+    margin: 50px;
+    overflow-x: hidden;
   }
 }
 @media (max-width: 576px) {
@@ -167,14 +180,7 @@ footer {
 }
 footer .side2 {
   margin-top: 20px;
-  margin-right: 200px;
   justify-content: center;
-}
-footer .side2 img {
-  width: 200px;
-}
-footer .side3 {
-  margin-right: 220px;
 }
 footer .side3 :hover {
   color: green;
@@ -189,7 +195,6 @@ footer .side3 a {
 }
 footer .side4 {
   color: grey;
-  margin-right: 20px;
   font-size: 17px;
   text-decoration: none;
   margin-top: 20px;
@@ -210,11 +215,6 @@ footer .side4 .side5 ul li {
 footer .side4 .side5 ul li a {
   text-decoration: none;
   color: black;
-}
-@media (max-width: 576px) {
-  footer .side4 {
-    margin-right: 210px;
-  }
 }
 @media (max-width: 576px) {
   footer {
