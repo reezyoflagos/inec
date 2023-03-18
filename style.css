@@ -6,10 +6,8 @@
 
 @media (max-width: 576px) {
   body {
-    width: -moz-max-content;
-    width: max-content;
-    height: -moz-max-content;
-    height: max-content;
+    width: auto;
+    height: auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
